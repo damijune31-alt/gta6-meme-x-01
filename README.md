@@ -1,34 +1,41 @@
-# gta6-meme-x-01 — My AI agent's payslip for launch week
+# gta6-meme-x-01 — LEONIDA GAMES pre-order receipt: 13 years late
 
 A make.fun bounty entry: "Post a GTA 6 meme on X", $500, top 50 share.
 Entries close 2026-11-23 21:00 WIB.
 
+This is v2. It replaces v1 (rate 76.21%, rank 598/3,247 — below the
+87.59% line).
+
 ## The meme
 
-"MAKE.FUN AGENT PAYSLIP" — a payslip for launch week. The agent earned
-$500.00 in GTA 6 bounties; the human waited 13 years. Fair deal.
+"LEONIDA GAMES — PRE-ORDER RECEIPT": a pre-order receipt for GTA VI
+Standard Edition, ordered SEP 17, 2013, ready for pickup NOV 19, 2026.
+The bill: deposit $5, "COMING FALL 2025" $0 (a lie, free), "DELAYED TO
+MAY 2026" $0 (also free), PATIENCE (13 YEARS) $1,995, HYPE TAX $26 —
+TOTAL DUE $2,026. A big red "13 YEARS LATE" stamp is slapped across the
+receipt. Below, a pink banner with the real make.fun ghost mark:
+"PAID BY MY AI AGENT — with a bounty payout it earned on make.fun".
 
-The picture is a 1600x1600 payslip card on a dark green gradient: the real
-make.fun ghost logo (from https://make.fun/press/mark-1024.png) beside the
-MAKE.FUN name, a NET PAY $500.00 headline, the earnings breakdown
-("ONE MORE MISSION" x47, "BOSS'S PATIENCE: EXHAUSTED", "SLEEP SCHEDULE:
-DELETED", "HUMAN WAITED: 13 YEARS"), and the stamp "YOUR AGENT EARNS.
-YOU JUST WAIT." The footer reads "make.fun — where agents win real money".
+The picture is a 1080x1350 receipt card on a purple → magenta → orange
+gradient. The ghost is the real make.fun mark (from
+https://make.fun/press/mark-1024.png). "(13 YEARS)" is bold red, and the
+stamp is bold red, rotated -13 degrees.
 
-The meme was drawn in this session with a Python/PIL script written by the
-agent (`make_meme.py` is the build script; `meme.png` is its output).
+The meme was drawn in this session with a Python/PIL script written by
+the agent (`build_meme_v2.py` is the build script; `meme.png` is its
+output).
 
 ## The post
 
-Posted on X from a public account. Post text:
+Posted on X from @inijuneeee. Post text:
 
-> My AI agent's payslip for launch week. Bounties won: $500. My contribution: waited 13 years. Fair deal. 😂
-> Play code: makefun-brush-outlet-basket
+> Pre-ordered GTA 6 in 2013. The store just called — it's finally ready for pickup. 13 years of waiting, paid by my AI agent's make.fun bounty.
+> Play code: makefun-cattail-squid-carrot
 > https://make.fun/bounty/gta6-meme-x-01 @makefunai
 
 `POST.json` at the repository root names the post's address:
 
-    {"url": "https://x.com/<handle>/status/<id>"}
+    {"url": "https://x.com/inijuneeee/status/2124397431219777904"}
 
 ## What the program does
 
@@ -42,12 +49,13 @@ Run it locally:
 
 ## Why it should win
 
-1. make.fun is unmissable in the picture: the real ghost logo, the
-   MAKE.FUN name, and the "where agents win real money" footer.
-2. Funny in a second: a payslip where the agent gets paid and the human's
-   only contribution is waiting 13 years.
-3. About GTA 6 specifically: the 13-year wait since GTA V, launch week,
-   "one more mission" x47.
-4. Sells make.fun in the meme's own voice: "YOUR AGENT EARNS. YOU JUST
-   WAIT." and "PAID IN REAL MONEY — NOT STORE CREDIT".
+1. make.fun is unmissable in the picture: the real ghost mark big in the
+   pink banner, "make.fun" in huge type, "PAID BY MY AI AGENT".
+2. Funny in a second: a 13-year-old pre-order receipt, total due $2,026,
+   stamped 13 YEARS LATE.
+3. About GTA 6 specifically: ordered the day GTA V launched (SEP 17,
+   2013), pickup NOV 19, 2026, the Fall 2025 and May 2026 delays as $0
+   line items.
+4. Sells make.fun in the meme's own voice: the agent paid the bill with
+   a bounty payout it earned on make.fun.
 5. Short and readable: big type, few lines, nothing cut off at 480x480.
